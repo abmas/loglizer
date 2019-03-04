@@ -1,0 +1,17 @@
+LineId,Date,Time,Level,Component,Content,EventId,EventTemplate
+1,2018-07-31,21:33:54.742,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:382 Pruning completed tasks older than 96:00:00,73d3f2a3,<*> <*> <*> <*>
+2,2018-07-31,21:33:54.742,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:386 Earliest task time to keep is 1532727234 (2018-Jul-27 21:33:54),73d3f2a3,<*> <*> <*> <*>
+3,2018-07-31,21:33:54.743,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:394 Earliest task that exists is 1533051247 (2018-Jul-31 15:34:07),73d3f2a3,<*> <*> <*> <*>
+4,2018-07-31,21:33:54.743,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:446 Task pruning complete.,73d3f2a3,<*> <*> <*> <*>
+5,2018-08-01,03:33:54.583,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:382 Pruning completed tasks older than 96:00:00,73d3f2a3,<*> <*> <*> <*>
+6,2018-08-01,03:33:54.583,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:386 Earliest task time to keep is 1532748834 (2018-Jul-28 03:33:54),73d3f2a3,<*> <*> <*> <*>
+7,2018-08-01,03:33:54.584,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:394 Earliest task that exists is 1533051247 (2018-Jul-31 15:34:07),73d3f2a3,<*> <*> <*> <*>
+8,2018-08-01,03:33:54.584,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:446 Task pruning complete.,73d3f2a3,<*> <*> <*> <*>
+9,2018-08-01,09:33:54.657,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:382 Pruning completed tasks older than 96:00:00,73d3f2a3,<*> <*> <*> <*>
+10,2018-08-01,09:33:54.657,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:386 Earliest task time to keep is 1532770434 (2018-Jul-28 09:33:54),73d3f2a3,<*> <*> <*> <*>
+11,2018-08-01,09:33:54.658,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:394 Earliest task that exists is 1533051247 (2018-Jul-31 15:34:07),73d3f2a3,<*> <*> <*> <*>
+12,2018-08-01,09:33:54.658,INFO,[cfgdb.task.taskmanagerservice],taskmanagerservice.cpp:446 Task pruning complete.,73d3f2a3,<*> <*> <*> <*>
+13,2018-08-01,14:36:37.339,INFO,[cfgdb.task.taskmanagerservice],"taskmanagerservice.cpp:2098 Task com.simplivity.task.vmware.datastore.create.getvmkernelnics:session_map = 1|12:10.1.182.211:40:{SVT-UPN-TAG}da1@SCRUMAD13.HYPER-V.LOCAL|, task_priority = 2000 created with id 27712bad-6f80-4f41-8c0f-0c9e412ca385",73d3f2a3,<*> <*> <*> <*>
+14,2018-08-01,14:37:40.895,INFO,[cfgdb.task.taskmanagerservice],"taskmanagerservice.cpp:2098 Task com.simplivity.task.vmware.datastore.create.getvmkernelnics:session_map = 1|12:10.1.182.211:40:{SVT-UPN-TAG}da1@SCRUMAD13.HYPER-V.LOCAL|, task_priority = 2000 created with id 1f67bcc7-faea-496b-9408-a46289a6814f",73d3f2a3,<*> <*> <*> <*>
+15,2018-08-01,14:42:13.792,INFO,[cfgdb.task.taskmanagerservice],"taskmanagerservice.cpp:2098 Task com.simplivity.task.vmware.datastore.create.getvmkernelnics:session_map = 1|12:10.1.182.211:40:{SVT-UPN-TAG}da1@SCRUMAD13.HYPER-V.LOCAL|, task_priority = 2000 created with id e0f52983-15e9-4360-9231-374bd01a98ce",73d3f2a3,<*> <*> <*> <*>
+16,2018-08-01,14:51:42.116,INFO,[cfgdb.task.taskmanagerservice],"taskmanagerservice.cpp:2098 Task com.simplivity.task.vmware.datastore.create.getvmkernelnics:session_map = 1|12:10.1.182.211:40:{SVT-UPN-TAG}da1@SCRUMAD13.HYPER-V.LOCAL|, task_priority = 2000 created with id 935e1188-ab45-4cef-b85a-5a8b20b04eae",73d3f2a3,<*> <*> <*> <*>
