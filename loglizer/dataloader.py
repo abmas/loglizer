@@ -55,6 +55,7 @@ def load_SVTFS_TASK(log_file, label_file=None, window='session', train_ratio=0.5
         data_dict = OrderedDict()
         for idx, row in struct_log.iterrows():
             blkId_list = re.findall(r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}', row['Content'])
+            #blkId_list = re.findall(r'datastore.create', row['Content'])
             blkId_set = set(blkId_list)
             for blk_Id in blkId_set:
                 if not blk_Id in data_dict:

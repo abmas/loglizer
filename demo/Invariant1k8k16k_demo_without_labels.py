@@ -9,6 +9,10 @@ max_dist = 0.3 # the threshold to stop the clustering process
 anomaly_threshold = 0.3 # the threshold for anomaly detection
 
 
+#struct_log = '../data/SVTFS/svtfs_cfgdb_task_good.log_structured.csv' # The structured log file
+#struct_log1 = '../data/SVTFS/svtfs_cfgdb_task_bad.log_structured.csv' # The structured log file
+#struct_log = '../data/SVTFS/svtfs_cfgdb_good.log_structured.csv' # The structured log file
+#struct_log1 = '../data/SVTFS/svtfs_cfgdb_bad.log_structured.csv' # The structured log file
 struct_log = '../data/SVTFS/svtfs_1k-8k_task.log_structured.csv' # The structured log file
 struct_log1 = '../data/SVTFS/svtfs_8k-16k_task.log_structured.csv' # The structured log file
 
@@ -43,9 +47,19 @@ if __name__ == '__main__':
     # Load the same log file used to train, it should show no anomalies...
     (x_test, _), (_, _) = dataloader.load_SVTFS_TASK(struct_log, window='session')
     x_test = feature_extractor.transform(x_test)
+
+    print(x_test)
+
     y_test = model.predict(x_test)
     print(y_test)
-
+    anomaly = 0
+    for an in y_test:
+	if (an):
+		anomaly = 1
+    if (anomaly):
+	print('Anomaly detected!')
+    else:
+	print('No Anomaly detected!')
     print("")
     print("")
     print('Loading a new logfile that nas no match. All new sequences should be anomalies')
@@ -61,3 +75,11 @@ if __name__ == '__main__':
     y_test = model.predict(x_test)
 
     print(y_test)
+    anomaly = 0
+    for an in y_test:
+	if (an):
+		anomaly = 1
+    if (anomaly):
+	print('Anomaly detected!')
+    else:
+	print('No Anomaly detected!')
